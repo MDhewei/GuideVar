@@ -16,13 +16,13 @@ Following the installation of Docker, simply execute the following command in th
 Run the GuideVar-on command line interface (CLI) with the command in the terminal:
 
 ```
-docker run -v ${PWD}/:/DATA -w /DATA hwkobe/guidevar GuideVar-On [options]
+docker run -v ${PWD}/:/DATA -w /DATA hwkobe/guidevar GuideVar-on [options]
 ```
 
 
 Run the GuideVar-off command line interface (CLI) with the command in the terminal:
 
 ```
-docker run -v ${PWD}/:/DATA -w /DATA hwkobe/guidevar GuideVar-Off [options]
+docker run -v ${PWD}/:/DATA -w /DATA hwkobe/guidevar GuideVar-off [options]
 ```
 
